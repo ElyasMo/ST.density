@@ -17,5 +17,15 @@ ST.density(ST.object,Gene,Threshold,Path)
 ```
 
 ## Output
-![Boxplot1- Helps to determine threasholds in the next chunck](https://github.com/ElyasMo/ST.density/blob/main/Figures/Vln.tiff)
-**The threasholds can be added in this section**
+1- In order to decide which threshold is more accurate for your investigation, ST.density provides a VlnPlot which shows the distribution of ratio of desired gene across all occupied spots with tissue section.
+
+![VlnPlot- Helps to determine the threasholds](https://github.com/ElyasMo/ST.density/blob/main/Figures/Vln.png)
+
+*Helps to determine the threasholds*
+
+2- Next, based on the determined threshold which was chosen in the first step, the spatial distribution of the selected gene which has a higher ratio of expression in each spot than the determined threshold is ilustrated.
+
+![DensityPlot- Illustrates the spatial distribution of desired gene](https://github.com/ElyasMo/ST.density/blob/main/Figures/Density.png)
+
+*Spatial distribution of desired gene*
+
