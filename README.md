@@ -15,3 +15,7 @@ library(ST.Density)
 
 ST.density(ST.object,Gene,Threshold,Path)
 ```
+
+## Output
+![Boxplot1- Helps to determine threasholds in the next chunck](https://github.com/ElyasMo/ST.density/blob/main/Figures/Vln.tiff)
+**The threasholds can be added in this section**
