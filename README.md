@@ -6,7 +6,7 @@ devtools::install_github("https://github.com/ElyasMo/ST.density")
 
 ## Vignette
 
-```r
+```r 
 library(ST.Density)
 # ST.object: the processed Seurat object
 # Gene: Desired gene for investigation of the spatial distribution of expression
