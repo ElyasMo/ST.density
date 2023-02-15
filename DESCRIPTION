@@ -3,8 +3,8 @@ Title: Illustrates the spatial distribution of desired gene expression across ST
 Version: 0.0.0.9000
 Authors@R: 
     person("Elyas", "Mohammadi", , "e.mohammadi.as@gmail.com", role = c("aut", "cre"),
-           comment = c(ORCID = "0000-0002-3352-2572"),
-			BugReports: c(https://github.com/ElyasMo/ST.density/issues))
+           comment = c(ORCID = "0000-0002-3352-2572"))
+	   
 Description: The package requires four parameters including a) processed Seurat object, b) desired gene c) Ratio threshold for the expression of gene in each spot d) Path to the Spatial folder in SpaceRanger output directory. As a results, it illustrates the spatial distribution of desired gene in tissue section as a density plot.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
