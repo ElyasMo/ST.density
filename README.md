@@ -10,7 +10,7 @@ library(ST.Density)
 
 # ST.object: the processed Seurat object
 # Gene: Desired gene for investigation of the spatial distribution of expression
-# Threshold: the ratio limit of the expression gene in each spot
+# Threshold: the ratio limit of the expression gene in each spot (from 0 to 1)
 # Path: the directory which contains the Spatial folder in output of SpaceRanger
 
 ST.density(ST.object,Gene,Threshold,Path)
