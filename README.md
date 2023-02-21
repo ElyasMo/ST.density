@@ -5,9 +5,7 @@ An R package to illustrates the spatial distribution of desired gene expression 
 devtools::install_github("https://github.com/ElyasMo/ST.density")
 
 ## Vignette
-
-```r 
-
+```r
 library(ST.Density)
 
 # ST.object: the processed Seurat object
@@ -16,7 +14,6 @@ library(ST.Density)
 # Path: the directory which contains the Spatial folder in output of SpaceRanger
 
 ST.density(ST.object,Gene,Threshold,Path)
-
 ```
 
 ## Output
